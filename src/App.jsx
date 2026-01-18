@@ -13,9 +13,7 @@ function App() {
         <Routes>
           <Route element={<LayOutPage />}>
             <Route index element={<HomePage />} />
-            <Route path="/cars" element={<h1>About Page</h1>} />
             <Route path="/flights" element={<FlightPage />} />
-            <Route path="/trains" element={<h1>Contact Page</h1>} />
           </Route>
 
           <Route path="*" element={<h1>Page Not Found</h1>} />

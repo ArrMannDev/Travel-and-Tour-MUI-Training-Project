@@ -6,8 +6,6 @@ export default function LayOutPage(){
     const pages = [
         { label: 'Home', path: '/' },
         { label: 'Flights', path: '/flights' },
-        { label: 'Cars', path: '/cars' },
-        { label: 'Trains', path: '/trains' },
     ];
     return(
         <>
